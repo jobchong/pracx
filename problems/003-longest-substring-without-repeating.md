@@ -5,7 +5,7 @@
 
 ## Problem
 
-Given a string `s`, find the length of the longest substring without repeating characters.
+Given a string `s`, find the length of the longest substring without duplicate characters.
 
 ## Examples
 
@@ -13,7 +13,7 @@ Given a string `s`, find the length of the longest substring without repeating c
 ```
 Input: s = "abcabcbb"
 Output: 3
-Explanation: The answer is "abc", with the length of 3.
+Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
 ```
 
 **Example 2:**

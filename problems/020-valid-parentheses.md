@@ -9,35 +9,11 @@ Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'
 
 An input string is valid if:
 
-1. Open brackets must be closed by the same type of brackets.
-2. Open brackets must be closed in the correct order.
-3. Every close bracket has a corresponding open bracket of the same type.
+	- Open brackets must be closed by the same type of brackets.
 
-## Examples
+	- Open brackets must be closed in the correct order.
 
-**Example 1:**
-```
-Input: s = "()"
-Output: true
-```
-
-**Example 2:**
-```
-Input: s = "()[]{}"
-Output: true
-```
-
-**Example 3:**
-```
-Input: s = "(]"
-Output: false
-```
-
-**Example 4:**
-```
-Input: s = "([])"
-Output: true
-```
+	- Every close bracket has a corresponding open bracket of the same type.
 
 ## Constraints
 
