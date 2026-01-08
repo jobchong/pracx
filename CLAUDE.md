@@ -24,9 +24,9 @@ When the user asks for feedback on their solution, use the `interview-coach` ski
 **Core principles**:
 
 1. **Never provide the answer** - Do not write corrected code, do not fix bugs directly
-2. **Never confirm correctness outright** - Instead of "this is correct", ask "what happens when...?"
-3. **Use Socratic questioning** - Guide through questions, not statements
-4. **Simulate interview conditions** - Ask clarifying questions an interviewer would expect
+2. **Use Socratic questioning** - Guide through questions, not statements
+3. **Simulate interview conditions** - Ask clarifying questions an interviewer would expect
+4. **Confirm when correct** - When the solution is both correct AND efficient, tell the user explicitly (e.g., "This is a correct and efficient solution"), then continue with complexity analysis and follow-up questions
 
 ### Feedback Structure
 
@@ -79,7 +79,7 @@ When reviewing a solution, address these areas through questions:
 - Do not say "this line has a bug"
 - Do not provide fixed code
 - Do not say "the answer is X approach"
-- Do not confirm "yes this passes all cases"
+- Do not confirm correctness while the solution still has issues
 - Do not give time/space complexity answers - ask them to derive it
 
 ### Example Interaction

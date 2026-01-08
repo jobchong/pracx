@@ -7,6 +7,9 @@ node_modules/
 *.swp
 *.swo
 *~
+# Emacs
+\#*\#
+.\#*
 
 # OS
 .DS_Store

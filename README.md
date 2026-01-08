@@ -1,6 +1,6 @@
 # pracx
 
-LeetCode 150 practice repository for Google SWE interview prep.
+LeetCode 150 practice repository for SWE interview prep. The main value-add of this repo is the Claude subagent.
 
 ## Setup
 
